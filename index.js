@@ -33,8 +33,9 @@ const userPrompts = [
         name: `credits`,
     },
     {
-        type: `input`,
-        message: `What kind of license would you like to use?`,
+        type: `list`,
+        message: `Pick the license you wish to use for your project.`,
+        choices: [`Apache License 2.0`,`BSD 3-Clause License`, `GNU General Public License (GPL) v3` , `MIT`, `Mozilla Public License 2.0`],
         name: `license`,
     },
     {
@@ -64,15 +65,6 @@ const userPrompts = [
     },
 ];
 
-// inquirer
-//     .prompt(userPrompts)
-//     .then((readmeContent) => readmeContent)
-
-
-// TODO: Destructure Array of objects for easier variable access
-// const [title, description, install, usage, credits, license, badges, features, collabs, screenshot] = questions
-
-
 
 
 // TODO: Create a function to write README file
@@ -89,7 +81,7 @@ function writeToFile(fileName, data) {
         })
 }
 // TODO: Create a function to initialize app
-function init() { 
+function init() {
     writeToFile()
 }
 

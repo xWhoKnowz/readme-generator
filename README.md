@@ -1,9 +1,9 @@
 
-  # readme gen
+# readme
 
 ## Description
 
-makes readme files
+makes readmes
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ inquirer
 
 ## Usage
 
-follow the prompts
+follow prompts
 
 
 ## Credits
@@ -43,7 +43,7 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 
 ## Features
 
-inquirer?
+inquirer
 
 ## How to Contribute
 
