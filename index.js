@@ -35,13 +35,8 @@ const userPrompts = [
     {
         type: `list`,
         message: `Pick the license you wish to use for your project.`,
-        choices: [`Apache License 2.0`,`BSD 3-Clause License`, `GNU General Public License (GPL) v3` , `MIT`, `Mozilla Public License 2.0`],
+        choices: [`Apache License 2.0`,`BSD 3 Clause License`, `GNU General Public License (GPL) v3` , `MIT`, `Mozilla Public License 2.0`],
         name: `license`,
-    },
-    {
-        type: `input`,
-        message: ``,
-        name: `badges`,
     },
     {
         type: `input`,

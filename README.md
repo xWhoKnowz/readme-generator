@@ -1,9 +1,9 @@
 
-# readme
-
+# README Generator
+https://img.shields.io/badge/License-MIT-red
 ## Description
 
-makes readmes
+This project creates professional readme's based on user responses to the given prompts.
 
 ## Table of Contents
 
@@ -18,38 +18,32 @@ makes readmes
 
 ## Installation
 
-inquirer
+Requires Inquirer
 
 ## Usage
 
-follow prompts
+The user just need to follow the promts and enter the information as they would write each section for their readme.md file.
 
 
 ## Credits
 
-Leif
+My instructor Leif for teaching me the concepts required to create this application.
 
 ## License
 
-MIT
+[![MIT](https://img.shields.io/badge/License-MIT-red)](https://opensource.org/license/mit/)
 
 ---
 
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
 ## Features
 
-inquirer
+Inquirer
 
 ## How to Contribute
 
-n/a 
+ 
 
-The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard.
+See [Contributor Covenant](https://www.contributor-covenant.org/).
 
 ## Webpage Screenshot
     
