@@ -50,6 +50,26 @@ const userPrompts = [
     },
     {
         type: `input`,
+        message: `How would a collaborator test this application?`,
+        name: `tests`,
+    },
+    {
+        type: `input`,
+        message: `What is your GitHub username?`,
+        name: `github`,
+    },
+    {
+        type: `input`,
+        message: `What is your GitHub account's URL?`,
+        name: `link`,
+    },
+    {
+        type: `input`,
+        message: `What is your email address?`,
+        name: `email`,
+    },
+    {
+        type: `input`,
         message: `What is the alt text for the project screenshot?`,
         name: `alt`,
     },

@@ -26,31 +26,28 @@ function renderLicenseLink(license) {
   
   // TODO: Create a conditional that generates a url link based on the chosen license
   if (license === `Apache License 2.0`) {
-    return `https://www.apache.org/licenses/LICENSE-2.0`
+    return `https://choosealicense.com/licenses/apache-2.0/`
   };
   if (license === `BSD 3 Clause License`) {
-    return `https://opensource.org/license/bsd-3-clause/`
+    return `https://choosealicense.com/licenses/bsd-3-clause/`
   };
   if (license === `GNU General Public License (GPL) v3`) {
-    return `https://www.gnu.org/licenses/gpl-3.0.en.html`
+    return `https://choosealicense.com/licenses/gpl-3.0/`
   };
   if (license === `MIT`) {
-    return `https://opensource.org/license/mit/`
+    return `https://choosealicense.com/licenses/mit/`
   };
   if (license === `Mozilla Public License 2.0`) {
-    return `https://www.mozilla.org/en-US/MPL/2.0/`
+    return `https://choosealicense.com/licenses/mpl-2.0/`
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) { }
-
 // TODO: Create a function to generate markdown for README
 
-function generateMarkdown({ title, description, install, usage, credits, license, badges, features, collabs, alt, screenshot }) {
+function generateMarkdown({ title, description, install, usage, credits, license, badges, features, collabs, tests, github, link, email, alt, screenshot }) {
   return `
 # ${title}
+[![${license}](${renderLicenseBadge(license)})](${renderLicenseLink(license)})
 
 ## Description
 
@@ -62,9 +59,10 @@ ${description}
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Badges](#badges)
 - [Features](#features)
-- [Contributing](#contributing)
+- [Contributions](#contributions)
+- [Tests](#tests)
+- [Questions](#questions)
 - [Screenshot](#screenshot)
 
 ## Installation
@@ -82,7 +80,7 @@ ${credits}
 
 ## License
 
-[![${license}](${renderLicenseBadge(license)})](${renderLicenseLink(license)})
+This project uses the [${license}](${renderLicenseLink(license)}) License.
 
 ---
 
@@ -90,11 +88,22 @@ ${credits}
 
 ${features}
 
-## How to Contribute
+## Contributions
 
 ${collabs} 
 
-See [Contributor Covenant](https://www.contributor-covenant.org/).
+Also see [Contributor Covenant](https://www.contributor-covenant.org/).
+
+## Tests
+
+${tests}
+
+## Questions
+
+If you have any questions or concerns reach out to me via one of the following: 
+
+GitHub: [${github}](${link}) 
+Email: ${email}.
 
 ## Webpage Screenshot
     

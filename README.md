@@ -1,9 +1,10 @@
 
-# README Generator
-https://img.shields.io/badge/License-MIT-red
+# Readme Gen
+[![MIT](https://img.shields.io/badge/License-MIT-red)](https://choosealicense.com/licenses/mit/)
+
 ## Description
 
-This project creates professional readme's based on user responses to the given prompts.
+Write readmes
 
 ## Table of Contents
 
@@ -11,40 +12,51 @@ This project creates professional readme's based on user responses to the given 
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
-- [Badges](#badges)
 - [Features](#features)
-- [Contributing](#contributing)
+- [Contributions](#contributions)
+- [Tests](#tests)
+- [Questions](#questions)
 - [Screenshot](#screenshot)
 
 ## Installation
 
-Requires Inquirer
+inquirer
 
 ## Usage
 
-The user just need to follow the promts and enter the information as they would write each section for their readme.md file.
+follow prompts
 
 
 ## Credits
 
-My instructor Leif for teaching me the concepts required to create this application.
+Leif
 
 ## License
 
-[![MIT](https://img.shields.io/badge/License-MIT-red)](https://opensource.org/license/mit/)
+This project uses the [MIT](https://choosealicense.com/licenses/mit/) License.
 
 ---
 
 ## Features
 
-Inquirer
+inquirer
 
-## How to Contribute
+## Contributions
 
  
 
-See [Contributor Covenant](https://www.contributor-covenant.org/).
+Also see [Contributor Covenant](https://www.contributor-covenant.org/).
+
+## Tests
+
+no tests
+
+## Questions
+
+If you have any questions or concerns reach out to me via one of the following: 
+
+GitHub: [xWhoKnowz](https://github.com/xWhoKnowz) Email: email@email.com.
 
 ## Webpage Screenshot
     
-![tbd](tbd)
+![n/a](n/a)
