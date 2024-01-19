@@ -103,7 +103,7 @@ ${tests}
 If you have any questions or concerns reach out to me via one of the following: 
 
 GitHub: [${github}](${link}) 
-Email: ${email}.
+Email: ${email}
 
 ## Webpage Screenshot
     
