@@ -83,7 +83,7 @@ const userPrompts = [
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
+function writeToFile() {
     inquirer
         .prompt(userPrompts)
         .then((readmeData) => {
